@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+form input {
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.add-cart {
+  max-width: 150px;
+}

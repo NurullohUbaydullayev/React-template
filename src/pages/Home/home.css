@@ -1,0 +1,47 @@
+.select-wrapper {
+  text-align: center;
+}
+
+.res-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(107, 121, 202);
+  border-bottom: 2px solid #fff;
+}
+
+.res__link {
+  width: 100%;
+
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(31, 30, 30);
+}
+
+.res__link button {
+  border: 2px solid rgb(243, 12, 12);
+  background-color: rgb(243, 12, 12);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.res__link button:hover {
+  background-color: #fff;
+  color: rgb(243, 12, 12);
+}
+
+.add-restaurant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add-restaurant input,
+.add-restaurant select,
+button {
+  width: 400px;
+  padding: 10px;
+  margin: 5px;
+}
